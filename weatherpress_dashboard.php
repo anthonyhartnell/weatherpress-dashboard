@@ -26,3 +26,11 @@ function wep_add_dashboard_widgets() {
 function wep_render_dashboard_widget_contents() {
     echo '<h4>Weather data here</h4>';
 }
+
+// Load in requirements from vendor folder
+if( file_exists( __DIR__ . '/vendor/autoload.php' ) ){
+    require 'vendor/autoload.php';
+}
+
+// Load the Guzzle Library
+use GuzzleHttp\Client;
