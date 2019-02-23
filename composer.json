@@ -1,0 +1,17 @@
+{
+    "name": "WebAssembler/weatherpress-dashboard",
+    "description": "Weather Press Dashboard - A custom weather widget for the WordPress Dashboard",
+    "keywords": ["wordpress", "plugin", "apis", "weather"],
+    "homepage": "https://www.atomicsmash.co.uk/",
+    "authors": [
+        {
+            "name": "Anthony Hartnell",
+            "email": "anthony@atomicsmash.co.uk",
+            "homepage": "https://www.atomicsmash.co.uk/"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
