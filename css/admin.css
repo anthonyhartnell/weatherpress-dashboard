@@ -1,0 +1,111 @@
+#wep_weather_widget @font-face {
+    font-family: 'MeteoconsRegular';
+    src: url('../icomoon/fonts/meteocons-webfont.eot');
+    src: url('../icomoon/fonts/meteocons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../icomoon/fonts/meteocons-webfont.woff') format('woff'),
+         url('../icomoon/fonts/meteocons-webfont.ttf') format('truetype'),
+         url('../icomoon/fonts/meteocons-webfont.svg#MeteoconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wep_weather_widget .inside {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+}
+
+#wep_weather_widget .hndle {
+    background: #9c70d2;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#wep_weather_widget .toggle-indicator {
+    color: white;
+}
+
+#wep_weather_widget .accordion-section-title:after,
+#wep_weather_widget .handlediv,
+#wep_weather_widget .item-edit {
+    color: white;
+}
+
+#wep_weather_widget #icon_wrapper {
+    display: inline-flex;
+    width: 100%;
+}
+#wep_weather_widget .meta h2 {
+    font-size: 2.4rem;
+    padding-top: 40px;
+    font-weight: 300;
+}
+
+#wep_weather_widget .meta h3 {
+    font-size: 2rem;
+    padding-top: 5px;
+    font-weight: 300;
+}
+
+
+#wep_weather_widget .inside div.icon {
+    margin-right: 20px;
+}
+
+#wep_weather_widget .inside div.icon:before {
+    font-family: 'Icomoon';
+    font-size: 180px;
+    line-height: 220px;
+    font-weight: 200;
+}
+
+/* Weather Icons */
+#wep_weather_widget .inside div.icon.sunny:before {
+    content: '\e928';
+}
+
+#wep_weather_widget .inside div.icon.moon:before {
+    content: '\e921';
+}
+
+#wep_weather_widget .inside div.icon.few-clouds:before {
+    content: '\e922';
+}
+
+#wep_weather_widget .inside div.icon.few-clouds-night:before {
+    content: '\e921';
+}
+
+#wep_weather_widget .inside div.icon.scattered-clouds:before {
+    content: '\e91c';
+}
+
+#wep_weather_widget .inside div.icon.broken-clouds:before {
+    content: '\e911';
+}
+
+#wep_weather_widget .inside div.icon.shower-rain:before {
+    content: '\e919';
+}
+
+#wep_weather_widget .inside div.icon.rain-sun:before {
+    content: '\e918';
+}
+
+#wep_weather_widget .inside div.icon.rain-night:before {
+    content: '\e908';
+}
+
+#wep_weather_widget .inside div.icon.thunderstorm:before {
+    content: '\e91a';
+}
+#wep_weather_widget .inside div.icon.snow:before {
+    content: '\e913';
+}
+
+#wep_weather_widget .inside div.icon.haze:before {
+    content: '\e925';
+}
+
+
+

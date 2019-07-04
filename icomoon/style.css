@@ -1,0 +1,359 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?sfdvo6');
+  src:  url('fonts/icomoon.eot?sfdvo6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sfdvo6') format('truetype'),
+    url('fonts/icomoon.woff?sfdvo6') format('woff'),
+    url('fonts/icomoon.svg?sfdvo6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lightning:before {
+  content: "\e900";
+}
+.icon-clouds:before {
+  content: "\e900";
+}
+.icon-weather:before {
+  content: "\e900";
+}
+.icon-cloudy:before {
+  content: "\e901";
+}
+.icon-weather1:before {
+  content: "\e901";
+}
+.icon-clouds1:before {
+  content: "\e901";
+}
+.icon-weather2:before {
+  content: "\e902";
+}
+.icon-cloud:before {
+  content: "\e902";
+}
+.icon-snowy:before {
+  content: "\e903";
+}
+.icon-cloud1:before {
+  content: "\e903";
+}
+.icon-weather3:before {
+  content: "\e903";
+}
+.icon-snowy1:before {
+  content: "\e904";
+}
+.icon-cloud2:before {
+  content: "\e904";
+}
+.icon-weather4:before {
+  content: "\e904";
+}
+.icon-windy:before {
+  content: "\e905";
+}
+.icon-rainy:before {
+  content: "\e905";
+}
+.icon-weather5:before {
+  content: "\e905";
+}
+.icon-cloud3:before {
+  content: "\e905";
+}
+.icon-windy1:before {
+  content: "\e906";
+}
+.icon-cloud4:before {
+  content: "\e906";
+}
+.icon-weather6:before {
+  content: "\e906";
+}
+.icon-rainy1:before {
+  content: "\e907";
+}
+.icon-cloud5:before {
+  content: "\e907";
+}
+.icon-weather7:before {
+  content: "\e907";
+}
+.icon-rainy2:before {
+  content: "\e908";
+}
+.icon-cloud6:before {
+  content: "\e908";
+}
+.icon-weather8:before {
+  content: "\e908";
+}
+.icon-lightning1:before {
+  content: "\e909";
+}
+.icon-weather9:before {
+  content: "\e909";
+}
+.icon-cloud7:before {
+  content: "\e90a";
+}
+.icon-weather10:before {
+  content: "\e90a";
+}
+.icon-cloud8:before {
+  content: "\e90b";
+}
+.icon-night:before {
+  content: "\e90b";
+}
+.icon-weather11:before {
+  content: "\e90b";
+}
+.icon-cloudy1:before {
+  content: "\e90c";
+}
+.icon-weather12:before {
+  content: "\e90c";
+}
+.icon-moon:before {
+  content: "\e90d";
+}
+.icon-night1:before {
+  content: "\e90d";
+}
+.icon-weather13:before {
+  content: "\e90d";
+}
+.icon-sun:before {
+  content: "\e90e";
+}
+.icon-weather14:before {
+  content: "\e90e";
+}
+.icon-lightning2:before {
+  content: "\e90f";
+}
+.icon-clouds2:before {
+  content: "\e90f";
+}
+.icon-weather15:before {
+  content: "\e90f";
+}
+.icon-cloud9:before {
+  content: "\e910";
+}
+.icon-lightning3:before {
+  content: "\e910";
+}
+.icon-weather16:before {
+  content: "\e910";
+}
+.icon-cloudy2:before {
+  content: "\e911";
+}
+.icon-weather17:before {
+  content: "\e911";
+}
+.icon-clouds3:before {
+  content: "\e911";
+}
+.icon-weather18:before {
+  content: "\e912";
+}
+.icon-cloud10:before {
+  content: "\e912";
+}
+.icon-snowy2:before {
+  content: "\e913";
+}
+.icon-weather19:before {
+  content: "\e913";
+}
+.icon-cloud11:before {
+  content: "\e913";
+}
+.icon-snowy3:before {
+  content: "\e914";
+}
+.icon-weather20:before {
+  content: "\e914";
+}
+.icon-cloud12:before {
+  content: "\e914";
+}
+.icon-snowy4:before {
+  content: "\e915";
+}
+.icon-weather21:before {
+  content: "\e915";
+}
+.icon-cloud13:before {
+  content: "\e915";
+}
+.icon-windy2:before {
+  content: "\e916";
+}
+.icon-rainy3:before {
+  content: "\e916";
+}
+.icon-weather22:before {
+  content: "\e916";
+}
+.icon-cloud14:before {
+  content: "\e916";
+}
+.icon-windy3:before {
+  content: "\e917";
+}
+.icon-weather23:before {
+  content: "\e917";
+}
+.icon-cloud15:before {
+  content: "\e917";
+}
+.icon-rainy4:before {
+  content: "\e918";
+}
+.icon-weather24:before {
+  content: "\e918";
+}
+.icon-cloud16:before {
+  content: "\e918";
+}
+.icon-rainy5:before {
+  content: "\e919";
+}
+.icon-weather25:before {
+  content: "\e919";
+}
+.icon-cloud17:before {
+  content: "\e919";
+}
+.icon-lightning4:before {
+  content: "\e91a";
+}
+.icon-weather26:before {
+  content: "\e91a";
+}
+.icon-cloud18:before {
+  content: "\e91a";
+}
+.icon-lightning5:before {
+  content: "\e91b";
+}
+.icon-weather27:before {
+  content: "\e91b";
+}
+.icon-cloud19:before {
+  content: "\e91b";
+}
+.icon-cloud20:before {
+  content: "\e91c";
+}
+.icon-weather28:before {
+  content: "\e91c";
+}
+.icon-lines:before {
+  content: "\e91d";
+}
+.icon-list:before {
+  content: "\e91d";
+}
+.icon-weather29:before {
+  content: "\e91d";
+}
+.icon-weather30:before {
+  content: "\e91e";
+}
+.icon-cloud21:before {
+  content: "\e91e";
+}
+.icon-weather31:before {
+  content: "\e91f";
+}
+.icon-weather32:before {
+  content: "\e920";
+}
+.icon-cloud22:before {
+  content: "\e921";
+}
+.icon-night2:before {
+  content: "\e921";
+}
+.icon-weather33:before {
+  content: "\e921";
+}
+.icon-cloudy3:before {
+  content: "\e922";
+}
+.icon-weather34:before {
+  content: "\e922";
+}
+.icon-snowflake:before {
+  content: "\e923";
+}
+.icon-gear:before {
+  content: "\e923";
+}
+.icon-weather35:before {
+  content: "\e923";
+}
+.icon-wind:before {
+  content: "\e924";
+}
+.icon-weather36:before {
+  content: "\e924";
+}
+.icon-windy4:before {
+  content: "\e925";
+}
+.icon-weather37:before {
+  content: "\e925";
+}
+.icon-sun1:before {
+  content: "\e926";
+}
+.icon-weather38:before {
+  content: "\e926";
+}
+.icon-moon1:before {
+  content: "\e927";
+}
+.icon-night3:before {
+  content: "\e927";
+}
+.icon-weather39:before {
+  content: "\e927";
+}
+.icon-sun2:before {
+  content: "\e928";
+}
+.icon-weather40:before {
+  content: "\e928";
+}
+.icon-sunrise:before {
+  content: "\e929";
+}
+.icon-dawn:before {
+  content: "\e929";
+}
+.icon-weather41:before {
+  content: "\e929";
+}
