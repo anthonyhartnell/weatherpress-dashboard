@@ -3,9 +3,9 @@
 Plugin Name: WeatherPress Dashboard
 Plugin URI: https://github.com/WebAssembler/weatherpress-dashboard
 Description: An API-driven weather widget for the dashboard
-Version: 1.2
+Version: 1.3
 Author: Anthony Hartnell
-Author URI: https://www.atomicsmash.co.uk/
+Author URI: https://www.anthonyhartnell.co.uk/
 Text Domain: wep
 */
 
@@ -43,19 +43,19 @@ function wep_get_class_from_icon( $icon_id ) {
     $class = '';
     switch( $icon_id ) {
         case '01d':
-            $class = 'sunny'; // full sun
+            $class = 'sunny';
             break;
         case '01n':
-            $class = 'moon'; // full sun
+            $class = 'moon';
             break;
         case '02d':
-            $class = 'few-clouds'; // partly sunny
+            $class = 'few-clouds';
             break;
         case '02n':
             $class = 'few-clouds-night';
             break;
         case '03d':
-            $class = 'scattered-clouds'; // cloudy
+            $class = 'scattered-clouds';
             break;
         case '04d':
             $class = 'broken-clouds';
@@ -117,7 +117,7 @@ function wep_render_dashboard_widget_contents() {
         echo '<div class="meta">';
         echo sprintf('<h2>%d%s <span class="format">C</span></h2>', $weather_data->main->temp, '&#186;');
         echo sprintf('<h3>%s</h3>', $current->main);   // Current weather name
-        echo sprintf('<h5>%s %s</h5>', date('l'), date('H:i'));   // Current day and time
+        echo sprintf('<h5>%s %s</h5>', date('l'), date('H:i', strtotime('+ 1 hour')));   // Current day and time
         echo '</div>';
 
     }
