@@ -1,7 +1,9 @@
-### WeatherPress Dashboard
-A simple plugin to add an API-drive weather widget in the WordPress Dashboard.
+![weatherpress dashboard logo](https://raw.githubusercontent.com/WebAssembler/weatherpress-dashboard/master/weatherpress_dashboard.jpg)
 
-### Installation
+# WeatherPress Dashboard
+A simple plugin I to add an API-drive weather widget in the WordPress Dashboard. It uses the Guzzle HTTP client to fetch an API endpoint and formats the result inside a custom widget.
+
+## Installation
 1. Register for an API key at https://openweathermap.org/api
 1. Download and install the plugin into `wp-content/plugins`  directory
 1. Run `composer install` inside the plugin folder. This will download and install the dependencies inside `composer.json`
